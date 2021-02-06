@@ -22,5 +22,4 @@ function MyTable() {
 
 const element = <MyTable />
 const container = document.getElementById("root")
-debugger
 Didact.render(element, container)
