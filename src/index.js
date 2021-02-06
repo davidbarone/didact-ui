@@ -1,6 +1,7 @@
 import Didact from "@dbarone/didact"
 
 function Counter(props) {
+  Didact.useEffect(() => { alert("Example of useEffect") });
   return (
     <div>
       <div>{props.value}</div>
